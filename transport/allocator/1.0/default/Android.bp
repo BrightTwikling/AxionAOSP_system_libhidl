@@ -29,6 +29,7 @@ vintf_fragment {
 
 cc_binary {
     name: "android.hidl.allocator@1.0-service",
+    recovery_available: true,
     relative_install_path: "hw",
     defaults: ["libhidl-defaults"],
     srcs: [
